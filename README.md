@@ -7,21 +7,18 @@ Overview
 This project analyzes how market sentiment (Fear & Greed Index) influences trader performance using real trading data.
 The analysis connects sentiment trends with profitability (PnL), trade sizes, and execution behavior to identify how traders respond during periods of fear and greed.
 
-Datasets Used
+Datasets Used:
 
 Fear & Greed Index
 
 Columns: timestamp, value, classification, date
 
-Source: Market sentiment data representing daily fear or greed levels.
-
 Trading Dataset
 
 Columns: account, coin, execution_price, size_usd, side, closed_pnl, etc.
 
-Source: Hyperliquid trader activity data.
 
-Key Steps
+Key Steps:
 
 Data loading and preprocessing
 
@@ -33,7 +30,7 @@ Correlation and regression analysis
 
 PDF report summarizing findings
 
-Key Insights
+Key Insights:
 
 Trader profits increase during Extreme Greed phases.
 
